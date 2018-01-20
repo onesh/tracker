@@ -1,0 +1,12 @@
+/* Empty. Add your own CSS if you like */
+
+.align-center {
+padding-left: 45%
+}
+.error-message-login {
+  padding-left: 43%;
+  padding-top: 9%;
+  font-size: 23px;
+  color: red;
+  font-weight: 700;
+}

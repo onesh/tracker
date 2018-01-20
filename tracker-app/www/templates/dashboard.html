@@ -1,0 +1,33 @@
+<div class="list card">
+
+  <div class="item item-avatar">
+    <h2>Kanishka(Kannu)</h2>
+    <p>January 25, 2018</p>
+  </div>
+
+  <div class="item item-body">
+    <div id="map"></div>
+  <script>
+  function initMap() {
+    debugger;
+        var uluru = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 8,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+      </script>
+      <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkUOdZ5y7hMm0yrcCQoCvLwzdM6M8s5qk&callback=initMap">
+    </script>
+    <p>
+      <a href="#" class="subdued">1 Like</a>
+      <a href="#" class="subdued">5 Comments</a>
+    </p>
+  </div>
+
+</div>
